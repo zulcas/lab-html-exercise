@@ -77,3 +77,29 @@ header > div {
 .loginLinks__join{
     border: 1px solid rgba(0,0,0, .7);
 }
+
+.section-amazing{
+  text-align: center;
+  background-color: rgba(0,0,0,.05);
+  padding: 30px;
+}
+
+.section-amazing__title{
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom:1rem;
+}
+
+.section-amazing__description{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.section-amazing__links{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
