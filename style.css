@@ -33,18 +33,45 @@ header > div {
     margin-right: 1rem;
   }
 
+  .topSearch{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .npmLogo {
     width: 150px;
     margin-right: 2 rem;
   }
 
+  .searchForm{
+    display: flex;
+  }
+
+  .searchForm>input{
+    padding: 1rem;
+    border: none;
+  }
+
+  input[type=submit]{
+    background-color: #fb3e44;
+    color: white;
+  }
+
+  #package-name{
+    background-color: rgba(0,0,0,0.05);
+    width: 350px;
+  }
+
 .loginLinks{
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
 .loginLinks>a{
-    color: rgba(0,0,0,.8)
+    color: rgba(0,0,0,.8);
+    padding: 0.4rem 1rem;
 }
 
 .loginLinks__join{

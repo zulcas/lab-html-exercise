@@ -26,12 +26,11 @@
           </nav>
         </div>
       
-        <div>
-          <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
+        <div class="topSearch">
           <img class="npmLogo" src="images/npm-logo.png" alt="logo npm">
-          <form action="/">
+          <form action="/" class="searchForm">
             <input type="text" name="package-name" id="package-name" placeholder="Search-packages">
-            <button>Search</button>
+            <input type="submit" value="Search">
           </form>
           <div class="loginLinks">
             <a class="loginLinks__join" href="">Join</a>
@@ -40,14 +39,14 @@
         </div>
       </header>
 
-      <section>
-        <h1>Build amazing things</h1>
+      <section class="section-amazing">
+        <h1 class="section-amazing__title">Build amazing things</h1>
 
-        <article>
+        <article class="section-amazing__description">
             Essential JavaScript development tools that help you go to market faster and build powerful applications using
             modern open source code.
         </article>
-        <div>
+        <div class="section-amazing__links">
             <a href="">See plans</a>
             <a href="">Join for free</a>
         </div>
